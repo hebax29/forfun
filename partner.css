@@ -1,0 +1,89 @@
+body{
+    background-color: #E7B3B3;
+}
+
+
+
+p{
+    font-size: large;
+    font-weight: 600;
+    opacity: 0.9;
+
+}
+
+button{
+    cursor: pointer;
+   margin: 50px 20px;
+    
+}
+
+#dialog{
+    width:300px;
+}
+
+.right{
+    margin-left: 120px;
+}
+
+.pic1{
+    margin-left: 3vw;
+}
+
+#bocchi2 {
+    position: absolute;
+     left: 45%;
+      top: 511px;
+      
+      /* top: 521px;
+    left: 53%; */
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pic {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: -7px 33px 81px -4px rgba(54, 5, 25, 0.41);
+-webkit-box-shadow: -7px 33px 81px -4px rgba(194, 42, 88, 0.41);
+-moz-box-shadow: -7px 33px 81px -4px rgba(197, 39, 118, 0.41);
+  
+}
+
+    
+#bocchi1 {
+    position: fixed;
+    top: 521px;
+    left: 53%;
+    transform: translate(-50%, -50%);
+   
+}
+
+@media (max-width:480px) {
+    .heading{
+        font-size: 29px;
+    }
+
+    .pic {
+        width: 75%;        
+    }
+
+    #bocchi1 {
+        top: 432px;
+        left: 65%;
+    }
+
+    #bocchi2 {
+         left: 35%;
+         top: 421px;
+    }
+    .pic1{
+        margin-left: 11vw;
+    }
+}
